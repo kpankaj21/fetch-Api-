@@ -42,8 +42,9 @@ const App = () => {
     <div className="App">
       {/* {image} */}
      {image.map((item) => {
-        return( 
-        <div className="item">
+       return( 
+         <div className="item">
+          <h1>Kishan Patel</h1>
       <img style={{width:"200px"}} src={item.url} />
      </div>
      )})}
